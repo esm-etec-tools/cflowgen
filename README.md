@@ -32,7 +32,7 @@ DOT言語はGraphvizで図に変換してください．
 `$ cflowgen.bat <arxml file1> [<armxl file2> [<armxl file3>] ...] [-o <file>]`
     * -o <file>
      生成するdotファイルを指定します．未指定の場合，cflow.dotとなります．
-* コマンドプロンプトでdot.exeを実行してください．  
+* コマンドプロンプトでdot.exe(Graphvizのコマンド)を実行してください．  
 `$ dot -Tsvg <dot file> > <SVG file>`  
  ※図が大きくなるため，SVG形式がおすすめです．検索も可能です．
 * 実行例
@@ -40,6 +40,8 @@ DOT言語はGraphvizで図に変換してください．
     $ cflowgen.bat *.arxml  
     $ dot -Tsvg cflow.dot > cflow.svg
     ```
+## サンプル画像(Graphvizで生成した画像の一部)
+ ![cflowgen生成画像サンプル](https://github.com/esm-etec-tools/cflowgen/blob/master/cflowgen_sample.png)
 
 ## 免責事項
 自由にご利用いただけますが，本ソフトウェアの利用に伴ういかなる場合においても，著作権者は一切責任を負いません．
