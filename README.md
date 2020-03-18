@@ -10,9 +10,11 @@ DOT言語はGraphvizで図に変換してください．
 * RTE APIからのExecutableEntityの直接関数呼び出し(Rte_CallからのServerRunnable呼び出し)
 * ※マルチインスタンス未対応
 
-## V0.1.0で対応済みのRTE API
-* Rte_Write/Rte_Read(S/R DataSemantics)
+## V0.2.0で対応済みのRTE API
+* Rte_Write, Rte_Read, Rte_Invalidate, Rte_IsUpdated(S/R DataSemantics)
 * Rte_Call(C/S)
+* Rte_Switch, Rte_Mode(Mode)
+* Rte_IrvWrite, Rte_IrvRead(Inter Runnable Variable)
 
 ## 実行環境設定
 * Java環境設定(Java8以降)  
