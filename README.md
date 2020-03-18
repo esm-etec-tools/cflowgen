@@ -48,4 +48,4 @@ DOT言語はGraphvizで図に変換してください．
 ## 免責事項
 自由にご利用いただけますが，本ソフトウェアの利用に伴ういかなる場合においても，著作権者は一切責任を負いません．
 
-Copyright (C) 2019 ESM, Inc. All rights reserved.
+Copyright (C) 2019-2020 ESM, Inc. All rights reserved.
